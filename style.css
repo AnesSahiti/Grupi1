@@ -672,7 +672,7 @@
     align-items: center;
     width: 85%;
     margin: auto;
-    background-color: white;
+    background-color: #5a5a20;
     border-radius: 20px;
   }
   .about-us img{
@@ -686,16 +686,16 @@
   }
   .content #our-story{
     font-size: 40px;
-    color: #84842c;
+    color: white;
   }
 
   .content h2{
-    color: #5a5a20;
+    color: white;
     font-size: 18px;
     margin: 15px 0px;
   }
   .content p{
-    color: #666;
+    color: white;
     font-size: 18px;
     line-height: 1.5;
   }
@@ -767,6 +767,10 @@
     border-style: solid;
     border-color: #5a5a20;
     border-width: 5px;
+   
+  }
+  .location iframe{
+    filter: invert(80%);
   }
   .hours{
     display: flex;
